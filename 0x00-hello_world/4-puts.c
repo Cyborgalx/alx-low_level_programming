@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
- * Description: Write a c programme that prints using puts function
- * Return: Always 0 (Success)
+ * main-serves as the entry point for the programme
+ *
+ * Return: ALways 0 (Success)
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
