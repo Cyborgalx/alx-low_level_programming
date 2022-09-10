@@ -1,12 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - starting point
- * Description: This program will assign a random number to the variable
+ * main-Entry point
+ * Description: Check on the last digit
  * Return Always 0 (Success)
  */
 int main(void)
+
 {
 	int n;
 
