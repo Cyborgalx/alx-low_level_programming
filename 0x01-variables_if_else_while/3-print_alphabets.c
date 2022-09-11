@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * description: Capital and small
- * Return: Alwayd 0 (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char d;
+	char c;
 
-	for (d = 'a'; a <= 'z'; d++)
-		putchar(d);
-	for (d = 'A'; d <= 'Z'; d++)
-		putchar(d);
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
+	for (c = 'A'; c <= 'Z'; c++)
+	putchar(c);
 
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
-
