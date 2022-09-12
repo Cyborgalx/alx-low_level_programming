@@ -5,7 +5,7 @@
 /**
  * main-Entry point
  * Description: Check on the last digit
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 
