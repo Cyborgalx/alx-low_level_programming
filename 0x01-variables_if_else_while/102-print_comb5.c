@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - print combination of three numbers
@@ -16,7 +17,7 @@ int main(void)
 	{
 	for (d = 48; b <= 57; d++)
 	{
-	if (((c + d) < (a + b) && c >= a) || a < c)
+	if (((c + d) > (a + b) && c >= a) || a < c)
 	{
 	putchar(a);
 	putchar(b);
@@ -40,6 +41,7 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
 
