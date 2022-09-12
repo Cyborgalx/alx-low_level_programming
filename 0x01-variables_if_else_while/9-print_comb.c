@@ -1,10 +1,13 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  * Description: print combination in single digits
  * Return: Always 0 (Success)
  */
+
 int main(void)
+
 {
 	int low;
 
