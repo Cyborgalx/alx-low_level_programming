@@ -4,7 +4,7 @@
  * _isalpha - check if a character is aplpha
  * @c: The character is checked.
  *
- * reture: 1 if character is letter, lower case or upper case, 0 otherwise
+ * Reture: 1 if character is letter, lower case or upper case, 0 otherwise
  */
 int _isalpha(int c)
 {
